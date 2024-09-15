@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <link rel="shortcut icon" href="/static/images/Design.png" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">BCA Chat Support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <header>
+        <div class="container1">
+            <h1>IITM College Janakpuri</h1>
+            <nav>
+                <div class="menu-icon" id="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="container1">
+            <h2>Welcome to IITM College Janakpuri</h2>
+            <p>Empowering Students with Knowledge and Skills for a Bright Future.</p>
+            <div class="slider-wrapper">
+                <div class="slider" id="slider">
+                    <img id="slide-1" src="/static/images/banner-image.jpg" alt="IITM College Janakpuri" class="responsive-img">
+                    <img id="slide-2" src="/static/images/2.jpeg" alt="2" class="responsive-img">
+                    <img id="slide-3" src="/static/images/3.jpg" alt="3" class="responsive-img">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container1">
+            <img src="/static/images/2.jpeg" alt="About IITM College" class="responsive-img">
+            <h2>About Us</h2>
+            <p>IITM College Janakpuri is committed to providing a high-quality education in the fields of technology, management, and more. Our campus is located in the heart of Janakpuri, offering a vibrant environment for academic and personal growth.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container1">
+            <img src="/static/images/banner-image.jpg" alt="Contact IITM College" class="responsive-img">
+            <h2>Contact Us</h2>
+            <p>Email: info@iitmcollege.ac.in</p>
+            <p>Phone: +91 12345 67890</p>
+            <p>Address: Janakpuri, New Delhi, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container1">
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+          
+                <form action="https://api.web3forms.com/submit"
+                method="POST">
+                  <input type="hidden"
+                  name="access_key"
+                  value="105e91ba-55a4-441e-a5c4-2e0f2e02cef0"
+                  />
+          
+                  <!-- Name Input -->
+                  <div class="input-box">
+                    <input type="text" name="name" required placeholder=" " />
+                    <label>Name</label>
+                  </div>
+          
+                  <!-- Email Input -->
+                  <div class="input-box">
+                    <input type="email" name="email" required placeholder=" " />
+                    <label>Email</label>
+                  </div>
+          
+                  <!-- Container Number Input -->
+                <div class="input-box">
+                    <input type="text" name="container-number" required placeholder=" " maxlength="10" pattern="\d{10}" title="Please enter a 10-digit phone number" />
+                    <label>Contact Number</label>
+                </div>
+
+          
+                  <!-- Course Dropdown List -->
+                  <div class="input-box">
+                    <select name="course" required>
+                      <option value="" disabled></option>
+                      <option value="" selected>Select the Course</option>
+                      <option value="B.Tech">B.Tech</option>
+                      <option value="bca">BCA</option>
+                      <option value="bba">BBA</option>
+                      <option value="mca">MCA</option>
+                      <option value="mba">MBA</option>
+                      <option value="bcom">B.Com</option>
+                      <option value="mcom">M.Com</option>
+                    </select>
+                    <label>Course</label>
+                  </div>
+          
+                  <!-- Message Input -->
+                  <div class="input-box">
+                    <textarea name="message" required placeholder=" "></textarea>
+                    <label>Write Your Query</label>
+                  </div>
+          
+                  <!-- Submit Button -->
+                  <input type="submit" value="Send" />
+                </form>
+              </div>
+            <p>&copy; 2024 IITM College Janakpuri. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+    <script>
+        const slider = document.getElementById('slider');
+        const slides = slider.querySelectorAll('.responsive-img');
+        let currentIndex = 0;
+
+        function slideToNext() {
+            const slideWidth = slider.clientWidth;
+            currentIndex = (currentIndex + 1) % slides.length;
+
+            slider.scrollTo({
+                left: slideWidth * currentIndex,
+                behavior: 'smooth'
+            });
+        }
+
+        setInterval(slideToNext, 2000);
+    </script>
+</body>
+</html>

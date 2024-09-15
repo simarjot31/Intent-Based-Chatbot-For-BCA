@@ -1,0 +1,333 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "bca",
+      "patterns": [
+        "BCA",
+        "What is BCA?",
+        "Tell me about BCA?",
+        "BCA stands for",
+        "Bachlors in Computer Application",
+        "Can u tell me about BCA?",
+        "Why BCA?"
+      ],
+      "responses": [
+        "BCA stands for Bachelor of Computer Applications, a three-year undergraduate degree program that focuses on computer applications and software development. It serves as a gateway for students who wish to pursue a career in the IT (Information and Technology) field."
+      ]
+    },
+    {
+      "tag": "BCA Eligibility Criteria",
+      "patterns": [
+        "BCA Eligibility Criteria",
+        "BCA Eligibility",
+        "What is the eligibility criteria for BCA"
+      ],
+      "responses": [
+        "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate* with pass in English, Mathematics or Computer Science or equivalent"
+      ]
+    },
+    {
+      "tag": "BCA Admission",
+      "patterns": [
+        "BCA Admission",
+        "BCA Admission Process",
+        "How to get admission in BCA",
+        "BCA Admission Eligibility",
+        "BCA Admission Process in India",
+        "BCA Admission Process in Delhi"
+      ],
+      "responses": [
+        "BCA admission process typically involves an entrance exam, conducted by the IP University i.e., Common Entrance Test or based on CUET"
+      ]
+    },
+    {
+      "tag": "bca semester",
+      "patterns": [
+        "BCA semesters",
+        "BCA semester details",
+        "Total number of semesters"
+      ],
+      "responses": [
+        "BCA is a 3-year undergraduate degree program, which is divided into 6 semester"
+      ]
+    },
+    {
+      "tag": "bca syllabus",
+      "patterns": [
+        "BCA syllabus",
+        "BCA course syllabus",
+        "BCA semester wise syllabus",
+        "BCA course structure",
+        "BCA course details",
+        "BCA course outline",
+        "BCA course content",
+        "BCA course material",
+        "BCA course curriculum",
+        "BCA course plan"
+      ],
+      "responses": [
+        "BCA syllabus is divided into 6 semesters. Each semester has different Core theory subjects and some practical lab subjects"
+      ] 
+    },
+    {
+      "tag": "bca fees",
+      "patterns": [
+        "BCA fees",
+        "BCA course fees",
+        "BCA fees structure",
+        "BCA fees details",
+        "BCA fees at IITM"
+      ],
+      "responses": [
+        "BCA fees in India can vary from college to college. The average fees for BCA is around 1.2 Lakhs for each year."
+      ]
+    },
+    {
+      "tag": "bca career",
+      "patterns": [
+        "BCA career",
+        "BCA career options",
+        "BCA career scope",
+        "BCA career opportunities",
+        "BCA career growth",
+        "BCA career prospects",
+        "BCA career after completion",
+        "BCA career path",
+        "BCA career advancement",
+        "BCA career development",
+        "BCA career opportunities after completion",
+        "BCA career growth after completion",
+        "Career to pursue after BCA"
+      ],
+      "responses": [
+        "BCA graduates can pursue a career in software developer, Web Developer/Designer, data analysis, Database Administrator and others or u can go for Higher Education and Specialization such as MCA or MBA in IT."
+      ] 
+    },
+    {
+      "tag": "bca subject units",
+      "patterns": [
+        "How many units each subject have?",
+        "Total number of units in each subject"
+      ],
+      "responses": [
+        "Each subject has 4 units"
+      ]
+    },
+    {
+      "tag": "bca semester 1",
+      "patterns": [
+        "What are the subjects in BCA first semester? ",
+        "BCA Semester 1 subjects?",
+        "Tell me the subjects of BCA first sem?",
+        "Semester 1 bca subjects",
+        "Can u tell me about BCA semester 2 subjects?",
+        "semester 1 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: Discrete Mathematics, Programming using C Language, Web Technologies, Technical Communication, Fundamentals of IT & Computers"
+      ]
+    },
+    {
+      "tag": "bca semester 2",
+      "patterns": [
+        "What are the subjects in BCA second semester? ",
+        "BCA Semester 2 subjects?",
+        "Tell me the subjects of BCA second sem?",
+        "Semester 2 bca subjects",
+        "Can u tell me about BCA semester 2 subjects?",
+        "semester 2 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: Applied Mathematics, Web Based Programming, DSA using C Language, DBMS, Environment Studies"
+      ]
+    },
+    {
+      "tag": "bca semester 3",
+      "patterns": [
+        "What are the subjects in BCA third semester? ",
+        "BCA Semester 3 subjects?",
+        "Tell me the subjects of BCA third sem?",
+        "Semester 3 bca subjects",
+        "Can u tell me about BCA semester 3 subjects?",
+        "semester 3 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: Computer Network, COA, OOP with C++, Human Values and Ethics, Basics of Python Programming, POM"
+      ]
+    },
+    {
+      "tag": "bca semester 4",
+      "patterns": [
+        "What are the subjects in BCA fourth semester? ",
+        "BCA Semester 4 subjects?",
+        "Tell me the subjects of BCA fourth sem?",
+        "Semester 4 bca subjects",
+        "Can u tell me about BCA semester 4 subjects?",
+        "semester 4 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: Java Programming, Introduction to AI/DS, Digital Marketing, Personality Development Skill, Software Engineering, IMED"
+      ]
+    },
+    {
+      "tag": "bca semester 5",
+      "patterns": [
+        "What are the subjects in BCA fifth semester? ",
+        "BCA Semester 5 subjects?",
+        "Tell me the subjects of BCA five sem?",
+        "Tell me the subjects of BCA semester five?",
+        "Semester 5 bca subjects",
+        "Can u tell me about BCA semester 5 subjects?",
+        "semester 5 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: OS & Linux Programming, Computer Graphics, Cloud Computing, Machine Learning with Python"
+      ]
+    },
+    {
+      "tag": "bca semester 6",
+      "patterns": [
+        "What are the subjects in BCA sixth semester? ",
+        "BCA Semester 6 subjects?",
+        "Tell me the subjects of BCA six sem?",
+        "Semester 6 bca subjects",
+        "Can u tell me about BCA semester 6 subjects?",
+        "semester 6 syllabus of BCA"
+      ],
+      "responses": [
+        "The Core Course Theory subjects: E-Commerce, Internet of Things, Data Ware Housing & Data Mining, Deep Learning with Python"
+      ]
+    },
+    {
+      "tag": "bba",
+      "patterns": [
+        "What is BBA? ",
+        "BBA full form ",
+        "BBA",
+        "Tell me about BBA?",
+        "BbA stands for",
+        "Bachlor of Business Administration",
+        "Can u tell me about BCBA?",
+        "Why BBA?"
+        ],
+      "responses": [
+        "The Bachelor of Business Administration (BBA) is an undergraduate degree program that focuses on business administration and management. It is a three-year course (or two-year course in some institutions) that prepares students for managerial positions and entrepreneurial ventures."
+      ]
+    },
+    {
+      "tag": "bba semester",
+      "patterns": [
+        "BBA semesters",
+        "BBA semester details",
+        "Total number of semesters in BBA"
+      ],
+      "responses": [
+        "BBA is a 3-year undergraduate degree program, which is divided into 6 semester"
+      ]
+    },
+    {
+      "tag": "BBA Eligibility Criteria",
+      "patterns": [
+        "BBA Eligibility Criteria",
+        "BBA Eligibility",
+        "What is the eligibility criteria for BBA"
+      ],
+      "responses": [
+        "Completion of Class 12 (or equivalent) with a minimum aggregate score of 50% (or as specified by the institution)"
+      ]
+    },
+    {
+      "tag": "BBA Recruiter",
+      "patterns": [
+        "BBA Recruiter",
+        "BBA Top Recruiter"
+      ],
+      "responses": [
+        "BBA graduates are recruited by top companies such as Accenture, Infosys, Tata Consultancy Services (TCS), Microsoft, Deloitte, IBM, ITC"
+      ]
+    },
+    {
+      "tag": "BBA career",
+      "patterns": [
+        "BBA career",
+        "BBA career options",
+        "BBA career scope",
+        "BBA career opportunities",
+        "BBA career path",
+        "Opportunities after BBA",
+        "Career after BBA"
+      ],
+      "responses": [
+        "BBA graduates can pursue careers in management, finance, marketing, human resources, operations, consulting, Enterpreneurship, Sales, etc."
+      ]
+    }
+  ]
+}
